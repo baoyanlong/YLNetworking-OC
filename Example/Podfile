@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YLNetworking-OC_Example' do
+  pod 'YLNetworking-OC', :path => '../'
+
+  target 'YLNetworking-OC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
