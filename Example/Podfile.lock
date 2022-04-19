@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - SVProgressHUD (2.2.5)
+  - YLNetworking-OC (1.0.0):
+    - AFNetworking
+    - SVProgressHUD
+
+DEPENDENCIES:
+  - YLNetworking-OC (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SVProgressHUD
+
+EXTERNAL SOURCES:
+  YLNetworking-OC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  YLNetworking-OC: 942a536e362723a367d0c104047104fa9673b2cb
+
+PODFILE CHECKSUM: b1e1e6c704fe38442d83beaccb2f184774f2b77a
+
+COCOAPODS: 1.10.0

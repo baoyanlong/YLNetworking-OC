@@ -1,0 +1,6 @@
+framework module YLNetworking_OC {
+  umbrella header "YLNetworking-OC-umbrella.h"
+
+  export *
+  module * { export * }
+}
